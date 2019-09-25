@@ -30,7 +30,7 @@ local.properties
 /build
 /captures
 ouput.json
-.idea/codeStyles/Project.xml
+.idea/*
 
 # NDK
 obj/
