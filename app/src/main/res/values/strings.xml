@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FoodHunt</string>
+    <string name="food_hunt">Food Hunt</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
 </resources>
