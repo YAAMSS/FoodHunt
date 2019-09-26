@@ -38,23 +38,23 @@
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/user1"
             android:drawablePadding="20dp"
-            android:lineSpacingExtra="18sp"
             android:inputType="textPersonName"
+            android:lineSpacingExtra="18sp"
             android:textColor="#cccccc"
             android:textSize="20sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textLayoutPassword"
-        android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        app:layout_constraintTop_toBottomOf="@id/textLayoutEmail"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/signInButton"
+        android:layout_height="wrap_content"
         android:layout_marginStart="25dp"
         android:layout_marginEnd="25dp"
-        android:hint="@string/password">
+        android:hint="@string/password"
+        app:layout_constraintBottom_toTopOf="@id/signInButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textLayoutEmail">
 
         <androidx.appcompat.widget.AppCompatEditText
             android:id="@+id/etPassword"
@@ -64,10 +64,8 @@
             android:drawablePadding="20dp"
             android:inputType="textPersonName"
             android:textColor="#cccccc"
-            android:textSize="20sp"
-            />
+            android:textSize="20sp" />
     </com.google.android.material.textfield.TextInputLayout>
-
 
 
     <androidx.appcompat.widget.AppCompatButton
@@ -75,10 +73,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/sign_in"
-        app:layout_constraintTop_toBottomOf="@id/textLayoutPassword"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textLayoutPassword" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -87,13 +85,13 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
+        android:contentDescription="@string/app_image"
         app:layout_constraintBottom_toTopOf="@+id/tvAppTitle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/foodHunt"
-        android:contentDescription="@string/app_image" />
+        app:srcCompat="@drawable/foodHunt" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
