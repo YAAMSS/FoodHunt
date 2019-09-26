@@ -63,7 +63,7 @@
             android:layout_height="match_parent"
             android:drawableStart="@drawable/lock1"
             android:drawablePadding="20dp"
-            android:inputType="textPersonName"
+            android:inputType="textPassword"
             android:textColor="#cccccc"
             android:textSize="20sp"
             />
