@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "354590796573",
+    "firebase_url": "https://foodhunt-a7787.firebaseio.com",
+    "project_id": "foodhunt-a7787",
+    "storage_bucket": "foodhunt-a7787.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354590796573:android:8793becd334d848929cff4",
+        "android_client_info": {
+          "package_name": "com.example.foodhunt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354590796573-vjjvmniacv5q8a60aeu6h615sp7pk7u0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodhunt",
+            "certificate_hash": "8398ffaaa86e13a926f66c9122e85f727ef24887"
+          }
+        },
+        {
+          "client_id": "354590796573-avdcutp11e90dmqjtvsq5d9kmjhge9ci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCMnpmI1E5WeGBlDF7S7wqx6x7GsqUUQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354590796573-avdcutp11e90dmqjtvsq5d9kmjhge9ci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
